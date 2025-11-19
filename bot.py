@@ -14,7 +14,7 @@ def start(message):
     
     bot.send_message(
         message.chat.id,
-        "🔥 АВТОДЕПЛОЙ ИЗ GITHUB!",
+        "🎉 АВТОДЕПЛОЙ РАБОТАЕТ из GITHUB!",
         reply_markup=keyboard
     )
 
