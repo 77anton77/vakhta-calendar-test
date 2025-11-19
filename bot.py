@@ -14,10 +14,10 @@ def start(message):
     ))
     
     bot.send_message(
-        message.chat.id,
-        🤖 ТЕСТОВЫЙ БОТ\n\n"🔥 АВТОДЕПЛОЙ!",
-        reply_markup=keyboard
-    )
+    message.chat.id,
+    "🤖 ТЕСТОВЫЙ БОТ\n\n🔥 АВТОДЕПЛОЙ!",
+    reply_markup=keyboard
+)
 
 @bot.message_handler(func=lambda message: True)
 def echo(message):
