@@ -45,5 +45,5 @@ def echo(message):
     bot.reply_to(message, "🚀 ВЕРСИЯ 2")
 
 if __name__ == "__main__":
-    print("🚀 ВЕРСИЯ 2-1")
+    print("🚀 Тестовый бот запущен!")
     bot.infinity_polling()
