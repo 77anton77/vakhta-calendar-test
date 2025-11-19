@@ -15,7 +15,7 @@ def start(message):
     
     bot.send_message(
         message.chat.id,
-        "🤖 ТЕСТОВЫЙ БОТ\n\nЭто тестовая версия 22!",
+        "🤖 ТЕСТОВЫЙ БОТ\n\n"🔥 АВТОДЕПЛОЙ!"!",
         reply_markup=keyboard
     )
 
