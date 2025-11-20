@@ -9,7 +9,7 @@ def start(message):
     keyboard = InlineKeyboardMarkup()
     keyboard.add(InlineKeyboardButton(
         "📅 Тест календарь", 
-        web_app=WebAppInfo(url="https://77anton77.github.io/vakhta-calendar-test/")
+        web_app=WebAppInfo(url="https://77anton77.github.io/vakhta-calendar-test/?v=2")
     ))
     
     bot.send_message(
